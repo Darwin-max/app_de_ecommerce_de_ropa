@@ -37,7 +37,7 @@ header{
 }
 .header__splash h1{
     font-family: "URBAN";
-    font-size: 55px;
+    font-size: 65px;
     font-weight: normal;
     background: linear-gradient(90deg, rgb(98, 0, 255), rgb(26, 255, 5), rgb(255, 0, 179));
     -webkit-background-clip: text;
@@ -54,8 +54,8 @@ header{
     /*background-color: aqua;*/
     position: absolute;
     left: 0px;
-    width: 421px;
-    height: 500px;
+    width: 490px;
+    height: 700px;
     margin-left: -54px;
 }
 
