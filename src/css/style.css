@@ -31,3 +31,23 @@ header{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.header__img{
+    
+    display: flex;
+    align-items: flex-end;
+    margin-top: 767px;
+   
+}
+.img__1{
+    /*background-color: aqua;*/
+    position: absolute;
+    left: 0px;
+    width: 421px;
+    height: 500px;
+    margin-left: -54px;
+}
+
+.letra{
+    font-family: EncodeSans-ExtraBold;
+    text-decoration: none;
+}
