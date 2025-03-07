@@ -10,8 +10,20 @@ body{
     /* background-color: var(--color-7); */
 }
 /************* Header *************/
+.fuego{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80vw;
+    height: 100vh; 
+    object-fit: cover; 
+    z-index: -1; 
+    animation: mover 10s linear infinite alternate;
+}
+
+
 header{
-    background: linear-gradient(125deg, var(--color-7), var(--color-3) 67%);
+    
     height: 122vh;
     display: flex;
     align-items: center;
@@ -25,9 +37,9 @@ header{
 }
 .header__splash h1{
     font-family: "URBAN";
-    font-size: 80px;
+    font-size: 65px;
     font-weight: normal;
-    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(111, 0, 255), rgb(0, 0, 0));
+    background: linear-gradient(90deg, rgb(98, 0, 255), rgb(26, 255, 5), rgb(255, 0, 179));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -35,15 +47,15 @@ header{
     
     display: flex;
     align-items: flex-end;
-    margin-top: 767px;
+    margin-top: 800px;
    
 }
 .img__1{
     /*background-color: aqua;*/
     position: absolute;
     left: 0px;
-    width: 421px;
-    height: 500px;
+    width: 490px;
+    height: 700px;
     margin-left: -54px;
 }
 
