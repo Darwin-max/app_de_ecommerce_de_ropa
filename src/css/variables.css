@@ -6,6 +6,15 @@
     --color-5: #121111;
     --color-6: #ffffff;
     --color-7: rgba(0, 204, 255, 0.514);
+    --color-8: #FFD33C;
+    --color-9: #FDFDFD;
+    --color-10: #000000;
+    --color-11: #CAC9C9;
+    --color-12: #DFDEDE;
+    --color-13: #101010;
+    --color-14: #F13658;
+    --color-15: #EFF1FF;
+    
 }
 
 @font-face {
@@ -17,4 +26,23 @@
 @font-face {
     font-family: "URBAN";
     src: url("../storage/font/wholecar/Barcelona\ Graffiti\ Bombing.otf");
+}
+
+@font-face {
+    font-family: "EncodeSans-Regular";
+    src: url("../storage/font/Encode_Sans/static/EncodeSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "EncodeSans-Bold";
+    src: url("../storage/font/Encode_Sans/static/EncodeSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "EncodeSans-Medium";
+    src: url("../storage/font/Encode_Sans/static/EncodeSans-Medium.ttf");
+}
+@font-face {
+    font-family: "EncodeSans-SemiBold";
+    src: url("../storage/font/Encode_Sans/static/EncodeSans-SemiBold.ttf");
 }
