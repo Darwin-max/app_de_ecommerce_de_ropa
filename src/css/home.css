@@ -178,4 +178,118 @@ li.select a {
     color: var(--color-9);
 }
 
+/******************************************/
+/**************** main ******************/
+main{
+    padding: 41px 19px 0px;
+}
+.section__productos {
+    /* background: red; */
+    display: flex;
+    height: 2100px;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: -20px;
+    justify-content: space-between;
+    
+}
+.article__contenedora {
+    /* background: var(--color-2); */
+    width: 48%;
+    margin-bottom: 5%;
+    height: 280px;
+    display: flex;
+    gap: 9px;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 6px 17px var(--color-shadow-2);
+    position: relative;
+}
 
+.article__contenedora a{
+    /* background: blue; */
+    height: 210px;
+    padding: 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+.article__contenedora a img{
+    /* background: red; */
+    width: 125%;
+    border-radius: 17px;
+    object-fit: contain;
+}
+
+.div__informacion {
+    /* background: violet; */
+    display: flex;
+    flex-direction: column;
+    padding: 2px
+
+}
+.div__informacion strong{
+    /* background-color: blue; */
+    font-family: "EncodeSans-SemiBold";
+    color: var(--color-5);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+.div__informacion p{
+    font-family: "EncodeSans-Regular";
+    color: var(--color-2);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 10px;
+}
+.div__comentarios {
+    /* background: bisque; */
+    padding: 0 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div__valoracion {
+    /* background: green; */
+    display: flex;
+    gap: 3px;
+    margin-left: -28px;
+    
+}
+.div__valoracion > img{
+    /* background: blue; */
+    width: 16px;
+    height: 16px;
+    object-fit: cover;
+}
+.div__valoracion label{
+    font-family: "EncodeSans-semiBold";
+    position: relative;
+    color: var(--color-5);
+    font-size: 14px;
+    margin-left: 21px;
+    
+    
+}
+.div__comentarios > img{
+    /* background-color: black; */
+    width: 18px;
+    height: 18px;
+    object-fit: cover;
+}
+
+.div__comentarios2 {
+    /* background: red; */
+    font-family: "EncodeSans-Regular";
+    color: var(--color-5);
+    position: relative;
+    left: -10px;
+    top: 1px;
+    font-size: 12px;
+    
+}
