@@ -5,3 +5,22 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.header__splash{
+    display: flex;
+    justify-content: center;
+}
+
+.imgen{
+    background-color: red;
+    width: 327px;
+    height: 392px;
+    margin: 24px 34px;
+    border-radius: 16px;
+}
+
+.imgen img{
+    width: 100%;
+    height: 100%;
+}
+
