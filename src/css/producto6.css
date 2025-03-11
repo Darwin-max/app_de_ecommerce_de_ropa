@@ -57,6 +57,18 @@ body {
     top: -45px;
     z-index: 500;
 }
+.heart1:checked::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-image: url(../storage/img/heart2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block;
+    margin-top: 8px;
+    margin-left: 12px;
+
+}
 
 
 main{
