@@ -138,4 +138,44 @@ header img {
     border-radius: 8px;
     background: var(--color-1);
 }
+/* esto ya son la parte de los botones */
+
+.nav__categoria {
+    /* background: green; */
+    margin: 0px 1px 0;
+    display: flex;
+    overflow-x: scroll;
+    gap: 16px;
+    margin-left: 19px;
+}
+
+.nav__categoria li {
+    background: var(--color-15);
+    flex: 1;
+    list-style: none;
+    border-radius: 10px;
+    border: 1px solid var(--color-3);
+    min-width: 92px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__categoria li a {
+    /* background: yellow; */
+    text-decoration: none;
+    color: var(--color-1);
+    font-family: "EncodeSans-Medium";
+    font-size: 12px;
+}
+
+li.select {
+    background: var(--color-1);
+}
+
+li.select a {
+    color: var(--color-9);
+}
+
 
