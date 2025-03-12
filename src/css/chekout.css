@@ -118,3 +118,30 @@ h1 {
     margin-left: 30px;
     width: 360px;
 }
+
+@media (min-width:310px) and (max-width:359px) {
+    header {
+        gap: 75px;
+    }
+    .points-icon {
+        margin-left: 160px;
+    }
+    .quantity-control {
+        margin-left: 255px;
+    }
+    .divider-line {
+        width: 330px;
+    }
+}
+@media (min-width:360px) and (max-width:375px) {
+    header {
+        gap: 75px;
+    }
+    .points-icon {
+        margin-left: 160px;
+    }
+    .quantity-control {
+        margin-left: 255px;
+    }
+}
+
