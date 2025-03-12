@@ -1089,7 +1089,7 @@ main {
 
 /* este es el producto 11 */
 .article__contenedora11 {
-    background: var(--color-2);
+    /* background: var(--color-2); */
     width: 47%;
     margin-bottom: 2%;
     height: 353px;
